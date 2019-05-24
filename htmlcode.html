@@ -8,13 +8,10 @@
         <!-- <script src="app.js"></script> -->
         
         <title>Pig Game</title>
-        <style>
+        <body>
             
-        </style>
-    </head>
 
-    <body>
-        <
+        
         <div class="wrapper clearfix">
             <div class="player-0-panel active">
                 <div class="player-name" id="name-0">Player 1</div>
@@ -41,7 +38,7 @@
             <input type="text" placeholder="Final score" class="final-score">
             
             <img src="dice1.jpg" alt="Dice" class="dice" id="dice-1" style="height: 20%"; width="20%";>
-            <img src="dice1.jpg" alt="Dice" class="dice" id="dice-2" style="height: 20%"; width="20%";>
+            
         </div>
         
      <script>
@@ -56,10 +53,10 @@ activeplayer = 0;
 let dice = Math.floor(Math.random()*6)+1;
 console.log(dice);
 
-document.getElementById('score-0').innerHTML = dice; 
+document.getElementById('current-0').innerHTML = dice;
+document.getElementById('dice-1').style = "display:none";
 
          </script>
-
 
     </body>
 </html>
