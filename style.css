@@ -43,7 +43,8 @@ body {
 }
 
 .wrapper {
-    width: 1000px;
+    width: 900px;
+    height: auto;
     position: absolute;
     top: 50%;
     left: 50%;
